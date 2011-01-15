@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_screen_background" >
+    <LinearLayout style="@style/TitleBar">
+    	<LinearLayout
+    		android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:orientation="vertical"
+   			android:layout_weight="1" >
+	    	<TextView
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/app_name"
+	    		android:textColor="@color/black"
+	    		android:textStyle="bold"
+	    		android:textSize="28dip" />
+	   		<TextView
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/slogan"
+	    		android:textStyle="bold"
+	    		android:textColor="@color/orange1" />
+   		</LinearLayout>
+   		<ImageView
+   			android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/icon"
+    		android:layout_gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_weight="1">
+   
+		<LinearLayout
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal">
+	    	<Button 
+	    		style="@style/CustomButton"
+	    		android:text="@string/button_enter_your_receipt"
+	    		android:drawableTop="@drawable/icon"
+	    		android:onClick="addNewExpense" />
+	    	<Button 
+	    		style="@style/CustomButton"
+	    		android:text="@string/button_see_charts"
+	    		android:drawableTop="@drawable/icon"
+	    		android:onClick="showCharts" />	    	
+	   	</LinearLayout>
+	   	<LinearLayout
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal">
+	    	<Button 
+	    		style="@style/CustomButton"
+	    		android:text="@string/button_see_all_expenses"
+	    		android:drawableTop="@drawable/icon"
+	    		android:onClick="showAllExpenses" />
+	    	<Button 
+	    		style="@style/CustomButton"
+	    		android:text="@string/button_manage_categories"
+	    		android:drawableTop="@drawable/icon"
+	    		android:onClick="manageCategories" />
+	    </LinearLayout>
+	    <LinearLayout
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal">
+	    	<Button 
+	    		style="@style/CustomButton"
+	    		android:text="@string/button_see_all_expenses"
+	    		android:drawableTop="@drawable/icon"
+	    		android:onClick="showAllExpenses" />
+	    	<Button 
+	    		style="@style/CustomButton"
+	    		android:text="@string/button_manage_categories"
+	    		android:drawableTop="@drawable/icon"
+	    		android:onClick="manageCategories" />
+	    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

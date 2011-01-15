@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="title_background">#ff355689</color>
+	<color name="black">#000000</color>
+	<color name="price">#FFFF00</color>
+	<color name="expenseName">#FFFFFF</color>
+	
+	<color name="white">#FFFFFF</color>
+	<color name="gray1">#BFBFBF</color>
+	<color name="gray2">#808080</color>
+	<color name="gray3">#040404</color>
+	<color name="blue1">#6699FF</color>
+	<color name="blue2">#3366CC</color>
+	<color name="blue3">#003399</color>
+	<color name="green1">#99CC33</color>
+	<color name="green2">#00CC00</color>
+	<color name="green3">#33DD11</color>
+	<color name="orange1">#FFCC00</color>
+	<color name="orange2">#FF9900</color>
+	<color name="orange3">#FF6600</color>
+	<color name="red">#CC0000</color>
+	
+</resources>

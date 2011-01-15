@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+   <dimen name="title_bar_height">100dip</dimen>
+   <dimen name="text_size_small">12sp</dimen>
+   <dimen name="text_size_medium">18sp</dimen>
+   <dimen name="text_size_large">22sp</dimen>
+   <dimen name="main_activity_button_height">80dip</dimen>
+   <dimen name="title_bar_padding">10sp</dimen>
+    	
+   
+</resources>

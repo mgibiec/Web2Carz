@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<!--    <style name="Theme.BuckTracker" parent="android:style/Theme.Light">
+ -->
+	<style name="Theme.BuckTracker" parent="android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="Theme.LightList" parent="android:style/Theme.Light">
+    	<item name="android:windowNoTitle">true</item>
+    </style>
+<!--    <item name="android:background">@color/blue1</item>-->
+    <style name="TitleBar">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:orientation">horizontal</item>
+    	<item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:layout_height">@dimen/title_bar_height</item>
+        
+        <item name="android:padding">@dimen/title_bar_padding</item>    	
+    </style>
+    <style name="CustomButton">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">@dimen/main_activity_button_height</item>
+    	<item name="android:layout_weight">1</item>
+   		<item name="android:background">@drawable/custom_button</item>
+   		<item name="android:textColor">@color/white</item>
+   		<item name="android:textStyle">bold</item>
+   		<item name="android:padding">4dip</item>
+   		<item name="android:layout_margin">2dip</item>		
+    </style>
+    <style name="CustomButtonSmall">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">@dimen/main_activity_button_height</item>    	
+    	<item name="android:background">@drawable/custom_button_small</item>
+    	<item name="android:textColor">@color/white</item>
+    </style>
+    <style name="label">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:paddingRight">5dip</item>
+    	<item name="android:gravity">left</item>
+    	<item name="android:textColor">@color/white</item>
+    	<item name="android:layout_marginLeft">2dip</item>
+    </style>
+</resources>
