@@ -23,4 +23,5 @@
 <string name="filter_set">Set Filter</string>
     <string name="filter_clear">Clear Filter</string>
 <string name="scan_barcode">Scan Barcode</string>
+<string name="enter_vin">Enter Vin</string>
 </resources>

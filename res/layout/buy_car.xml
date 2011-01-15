@@ -48,9 +48,9 @@
 	    		android:onClick="scanBarcode" />
 	    	<Button
 	    		style="@style/CustomButton"
-	    		android:text="@string/button_see_charts"
+	    		android:text="@string/enter_vin"
 	    		android:drawableTop="@drawable/icon"
-	    		android:onClick="showCharts" />
+	    		android:onClick="enterVin" />
 	   	</LinearLayout>
 	   	<LinearLayout
 			android:layout_width="fill_parent"
