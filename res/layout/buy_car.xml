@@ -35,32 +35,33 @@
     	android:layout_height="wrap_content"
     	android:orientation="vertical"
     	android:layout_weight="1">
-   
+
 		<LinearLayout
 			android:layout_width="fill_parent"
 	    	android:layout_height="wrap_content"
 	    	android:orientation="horizontal">
-	    	<Button 
+	    	<Button
 	    		style="@style/CustomButton"
-	    		android:text="@string/button_enter_your_receipt"
+	    		android:id="@+id/scan_barcode"
+	    		android:text="@string/scan_barcode"
 	    		android:drawableTop="@drawable/icon"
-	    		android:onClick="addNewExpense" />
-	    	<Button 
+	    		android:onClick="scanBarcode" />
+	    	<Button
 	    		style="@style/CustomButton"
 	    		android:text="@string/button_see_charts"
 	    		android:drawableTop="@drawable/icon"
-	    		android:onClick="showCharts" />	    	
+	    		android:onClick="showCharts" />
 	   	</LinearLayout>
 	   	<LinearLayout
 			android:layout_width="fill_parent"
 	    	android:layout_height="wrap_content"
 	    	android:orientation="horizontal">
-	    	<Button 
+	    	<Button
 	    		style="@style/CustomButton"
 	    		android:text="@string/button_see_all_expenses"
 	    		android:drawableTop="@drawable/icon"
 	    		android:onClick="showAllExpenses" />
-	    	<Button 
+	    	<Button
 	    		style="@style/CustomButton"
 	    		android:text="@string/button_manage_categories"
 	    		android:drawableTop="@drawable/icon"
@@ -70,12 +71,12 @@
 			android:layout_width="fill_parent"
 	    	android:layout_height="wrap_content"
 	    	android:orientation="horizontal">
-	    	<Button 
+	    	<Button
 	    		style="@style/CustomButton"
 	    		android:text="@string/button_see_all_expenses"
 	    		android:drawableTop="@drawable/icon"
 	    		android:onClick="showAllExpenses" />
-	    	<Button 
+	    	<Button
 	    		style="@style/CustomButton"
 	    		android:text="@string/button_manage_categories"
 	    		android:drawableTop="@drawable/icon"

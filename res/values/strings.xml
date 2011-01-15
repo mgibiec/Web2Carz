@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    
+
     <string name="app_name">Web2Carz</string>
 <string name="category_prompt">Choose Category</string>
 <string name="manage_categories">Manage Categories</string>
@@ -19,7 +19,8 @@
     <string name="button_see_charts">See charts</string>
     <string name="slogan">Your local cars</string>
 
-    
+
 <string name="filter_set">Set Filter</string>
     <string name="filter_clear">Clear Filter</string>
+<string name="scan_barcode">Scan Barcode</string>
 </resources>
