@@ -4,57 +4,82 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/home_screen_background" >
-    <LinearLayout style="@style/TitleBar">
-    	<LinearLayout
-    		android:layout_width="wrap_content"
-   			android:layout_height="wrap_content"
-   			android:orientation="vertical"
-   			android:layout_weight="1" >
-	    	<TextView
-	    		android:layout_width="wrap_content"
-	    		android:layout_height="wrap_content"
-	    		android:text="@string/app_name"
-	    		android:textColor="@color/black"
-	    		android:textStyle="bold"
-	    		android:textSize="28dip" />
-	   		<TextView
-	    		android:layout_width="wrap_content"
-	    		android:layout_height="wrap_content"
-	    		android:text="@string/slogan"
-	    		android:textStyle="bold"
-	    		android:textColor="@color/orange1" />
-   		</LinearLayout>
-   		<ImageView
-   			android:layout_width="wrap_content"
-    		android:layout_height="wrap_content"
-    		android:src="@drawable/icon"
-    		android:layout_gravity="right" />
-    </LinearLayout>
-    <LinearLayout
+	<ScrollView
+		android:orientation="vertical"
     	android:layout_width="fill_parent"
-    	android:layout_height="wrap_content"
-    	android:orientation="vertical"
-    	android:layout_weight="1">
-   
-		
-    </LinearLayout>
-   	<LinearLayout
-        android:id="@+id/now_playing_loading"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
-        <Button 
-        	style="@style/CustomButtonSmall"
-        	android:text="Buy a car"
-        	android:onClick="launchBuyCarActivity" />
-       	<Button 
-        	style="@style/CustomButtonSmall"
-        	android:text="Sell a car" 
-        	android:onClick="launchSellCarActivity" />
-       	<Button 
-        	style="@style/CustomButtonSmall"
-        	android:text="Car Contest"
-        	android:onClick="launchCarContestActivity"  />
-    </LinearLayout>
+    	android:layout_height="fill_parent">
+    	<LinearLayout
+    		android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
+    	
+    	
+    <TextView
+    	style="@style/label"  		
+ 		android:text="Make:" />
+	<Spinner
+		style="@style/sellCarInput"
+    	android:id="@+id/inputMake"
+    	android:prompt="@string/category_prompt" />	   	
+	<TextView
+		style="@style/label"
+		android:text="Model:" />
+   	<Spinner
+   		style="@style/sellCarInput"			
+    	android:id="@+id/inputModel"
+    	android:prompt="@string/category_prompt" />	   		  	
+ 	<TextView
+		style="@style/label"
+   		android:text="Year:" />	
+	<Spinner
+		style="@style/sellCarInput"
+   		android:id="@+id/inputYear"
+   		android:inputType="number|phone" />
+   	<TextView
+		style="@style/label"
+   		android:text="Asking price:" />	
+	<EditText
+		style="@style/sellCarInput"	
+   		android:id="@+id/inputPrice"
+   		android:inputType="number|phone" />
+	<TextView
+		style="@style/label"
+   		android:text="Milage:" />	
+	<EditText
+		style="@style/sellCarInput"
+   		android:id="@+id/inputMilage"
+   		android:inputType="number|phone" />
+	<TextView
+		style="@style/label"
+   		android:text="Trim:" />	
+	<Spinner
+		style="@style/sellCarInput"	
+   		android:id="@+id/inputTrim" />
+	<TextView
+		style="@style/label"
+   		android:text="Body Style:" />	
+	<Spinner
+		style="@style/sellCarInput"
+   		android:id="@+id/inputBodyStyle" />
+	<TextView
+		style="@style/label"
+   		android:text="VIN" />	
+	<EditText
+		style="@style/sellCarInput"	
+   		android:id="@+id/inputVIN"
+   		android:inputType="text" />
+	<TextView		
+		style="@style/label"
+   		android:text="Doors:" />	
+	<Spinner
+		style="@style/sellCarInput"	
+   		android:id="@+id/inputDoors" />
+	<TextView
+		style="@style/label"
+   		android:text="Engine Cylinders:" />	
+	<Spinner
+		style="@style/sellCarInput"
+   		android:id="@+id/inputEngineCylinders" />
+	</LinearLayout>
+    </ScrollView>  	   
 </LinearLayout>

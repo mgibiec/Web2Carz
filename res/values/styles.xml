@@ -38,11 +38,19 @@
     	<item name="android:textColor">@color/white</item>
     </style>
     <style name="label">
-    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_width">fill_parent</item>
     	<item name="android:layout_height">wrap_content</item>
     	<item name="android:paddingRight">5dip</item>
     	<item name="android:gravity">left</item>
     	<item name="android:textColor">@color/white</item>
-    	<item name="android:layout_marginLeft">2dip</item>
+    	<item name="android:layout_marginLeft">20dip</item>
+    	<item name="android:layout_marginRight">20dip</item>
+    </style>
+        <style name="sellCarInput">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:layout_weight">1</item>
+    	<item name="android:layout_marginLeft">20dip</item>
+    	<item name="android:layout_marginRight">20dip</item>
     </style>
 </resources>
