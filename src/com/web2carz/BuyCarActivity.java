@@ -64,6 +64,9 @@ public class BuyCarActivity extends Activity {
 				});
 		vinInputDialog.show();
 	}
+	public void scanVIN(View v) {
+		ZxingIntentIntegrator.initiateScan(this);
+	}
 
 	public void scanBarcode(View v) {
 		ZxingIntentIntegrator.initiateScan(this);

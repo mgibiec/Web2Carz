@@ -11,9 +11,6 @@
         <activity android:name=".BuyCarActivity"/>
         <activity android:name=".SellCarActivity"/>
         <activity android:name=".CarContestActivity"/>
-        <activity android:name=".EnterVinActivity"
-          android:label="Enter VIN"
-          android:theme="@android:style/Theme.Dialog"/>
     </application>
     <uses-sdk android:minSdkVersion="5"/>
 </manifest>

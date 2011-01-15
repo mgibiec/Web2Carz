@@ -43,12 +43,12 @@
 	    	<Button
 	    		style="@style/CustomButton"
 	    		android:id="@+id/scan_barcode"
-	    		android:text="@string/scan_barcode"
+	    		android:text="@string/button_scan_barcode"
 	    		android:drawableTop="@drawable/icon"
 	    		android:onClick="scanBarcode" />
 	    	<Button
 	    		style="@style/CustomButton"
-	    		android:text="@string/enter_vin"
+	    		android:text="@string/button_enter_vin"
 	    		android:drawableTop="@drawable/icon"
 	    		android:onClick="enterVin" />
 	   	</LinearLayout>
@@ -58,9 +58,9 @@
 	    	android:orientation="horizontal">
 	    	<Button
 	    		style="@style/CustomButton"
-	    		android:text="@string/button_see_all_expenses"
+	    		android:text="@string/button_scan_vin"
 	    		android:drawableTop="@drawable/icon"
-	    		android:onClick="showAllExpenses" />
+	    		android:onClick="scanVIN" />
 	    	<Button
 	    		style="@style/CustomButton"
 	    		android:text="@string/button_manage_categories"

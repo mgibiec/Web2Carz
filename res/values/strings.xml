@@ -22,6 +22,7 @@
 
 <string name="filter_set">Set Filter</string>
     <string name="filter_clear">Clear Filter</string>
-<string name="scan_barcode">Scan Barcode</string>
-<string name="enter_vin">Enter Vin</string>
+<string name="button_scan_barcode">Scan Barcode</string>
+<string name="button_enter_vin">Enter Vin</string>
+<string name="button_scan_vin">Scan Vin</string>
 </resources>
